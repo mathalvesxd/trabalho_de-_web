@@ -197,6 +197,20 @@ body {
         text-align: left;
     }
     
-    
+@media (max-width: 1000px) {
+    .image-section {
+        flex-direction: column; /* Altera a direção do flexbox para coluna */
+    }
+
+    .image-item {
+        width: 100%; /* Define a largura para ocupar a largura total */
+        margin-bottom: 20px; /* Reduz a margem inferior */
+    }
+
+    .image-item img {
+        width: 100%; /* Define a largura para ocupar a largura total */
+        margin-right: 0; /* Remove a margem direita */
+    }
+}    
 
 
